@@ -1,0 +1,13 @@
+{
+    "name": "drupal/pacifica_theme",
+    "description": "Pacifica base theme.",
+    "license": "LGPL-3.0",
+    "type": "drupal-theme",
+    "authors": [
+        {
+            "name": "David Brown",
+            "email": "dmlb2000@gmail.com"
+        }
+    ],
+    "require": {}
+}
