@@ -1,12 +1,16 @@
 name: Pacifica
-type: theme
-description: This is a Pacifica sub theme of Bartik
-core: 8.x
-package: custom
-base theme: bartik
 logo: pacifica.png
-libraries:
-  - pacifica/base
+type: theme
+base theme: bartik
+description: 'A flexible, recolorable theme with many regions and a responsive, mobile-first layout.'
+package: Core
+version: VERSION
+core: 8.x
+libraries-override:
+  bartik/global-styling:
+    css:
+      theme:
+        css/colors.css: css/colors.css
 regions:
   header: Header
   primary_menu: 'Primary menu'
