@@ -1,5 +1,10 @@
 /* ---------- Color Module Styles ----------- */
 
+@font-face {
+  font-family: 'Conthrax';
+  src: url("fonts/conthrax-sb.ttf");
+}
+
 body {
   color: #3f3f3f;
   background: #3f3f3f;
@@ -53,6 +58,10 @@ a:active,
 .region-secondary-menu .menu-item a,
 .region-secondary-menu .menu-item a.is-active {
   color: #3f3f3f;
+}
+
+.region-header .site-branding__text a {
+  font-family: 'Conthrax';
 }
 
 /* ---------- Color Form ----------- */
